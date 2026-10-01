@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitu Web Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">JITU <span>WEB STUDIO</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="tag">WEBSITE • APP • DESIGN</p>
+        <h1>Your Business Deserves<br><span>More Than Just a Website.</span></h1>
+
+        <p class="hero-text">
+    We create modern, professional websites designed to showcase your brand,
+    build customer trust, and give your business a strong digital presence.
+</p>
+
+        <div class="buttons">
+            <a href="#services" class="btn primary">View Services</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="services">
+    <p class="small-title">WHAT I DO</p>
+    <h2>My Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🌐</div>
+            <h3>Website Development</h3>
+            <p>Modern and responsive websites for businesses and personal brands.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📱</div>
+            <h3>App Development</h3>
+            <p>Simple Android app solutions for your business idea.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Website Design</h3>
+            <p>Clean, attractive and mobile-friendly website designs.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔄</div>
+            <h3>Website Redesign</h3>
+            <p>Modern redesign for an existing website.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section pricing" id="pricing">
+    <p class="small-title">STARTING FROM</p>
+    <h2>Pricing</h2>
+
+    <div class="price-grid">
+
+        <div class="price-card">
+            <h3>Basic Website</h3>
+            <div class="price">₹3,000<span>+</span></div>
+            <p>Simple websites and personal pages.</p>
+            <a href="#contact">Get Website</a>
+        </div>
+
+        <div class="price-card featured">
+            <div class="popular">POPULAR</div>
+            <h3>Business Website</h3>
+            <div class="price">₹5,000<span>+</span></div>
+            <p>For shops, businesses and local brands.</p>
+            <a href="#contact">Get Website</a>
+        </div>
+
+        <div class="price-card">
+            <h3>Advanced Website</h3>
+            <div class="price">₹10,000<span>+</span></div>
+            <p>For larger and advanced projects.</p>
+            <a href="#contact">Get Website</a>
+        </div>
+
+        <div class="price-card">
+            <h3>Android App</h3>
+            <div class="price">₹8,000<span>+</span></div>
+            <p>Custom Android app development.</p>
+            <a href="#contact">Get App</a>
+        </div>
+
+        <div class="price-card">
+            <h3>Website Redesign</h3>
+            <div class="price">₹2,000<span>+</span></div>
+            <p>Modern redesign for an existing website.</p>
+            <a href="#contact">Redesign</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="portfolio">
+    <p class="small-title">MY WORK</p>
+    <h2>Portfolio</h2>
+
+    <div class="portfolio-grid">
+
+        <div class="project">
+            <div class="project-image gym">GYM</div>
+            <div class="project-info">
+                <h3>Gym Website</h3>
+                <p>Fitness & gym website demo.</p>
+                <a href="#">View Demo →</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-image esports">JITU eSPORTS</div>
+            <div class="project-info">
+                <h3>Jitu eSports</h3>
+                <p>Gaming tournament website demo.</p>
+                <a href="#">View Demo →</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section categories">
+    <p class="small-title">WEBSITES FOR</p>
+    <h2>Different Businesses</h2>
+
+    <div class="category-list">
+        <span>🏋️ Gym & Fitness</span>
+        <span>👕 Clothing & Fashion</span>
+        <span>💇 Salon & Beauty</span>
+        <span>🍔 Restaurant & Cafe</span>
+        <span>📚 Coaching & Education</span>
+        <span>📱 Mobile & Electronics</span>
+        <span>🏥 Private Clinic</span>
+        <span>🏨 Hotel & Guest House</span>
+        <span>📸 Photography</span>
+        <span>🏪 Local Shops</span>
+        <span>🎮 Gaming & eSports</span>
+        <span>👤 Personal Portfolio</span>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <p class="small-title">LET'S WORK TOGETHER</p>
+    <h2>Have a Project?</h2>
+
+    <p class="contact-text">
+        Tell me about your website or app idea.
+        I'll get back to you on WhatsApp.
+    </p>
+
+    <form id="contactForm">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="tel" id="phone" placeholder="Your WhatsApp Number" required>
+
+        <select id="service" required>
+            <option value="">Select Service</option>
+            <option>Website Development</option>
+            <option>App Development</option>
+            <option>Website Design</option>
+            <option>Website Redesign</option>
+            <option>Other</option>
+        </select>
+
+        <textarea id="message" rows="5"
+            placeholder="Tell me about your project..."
+            required></textarea>
+
+        <button type="submit">💬 Send on WhatsApp</button>
+
+    </form>
+
+    <div class="contact-buttons">
+        <a href="https://www.instagram.com/scary_cricketer_zitu?stkn=ZGsxN2V5bmtsNm9r"
+           class="instagram">
+            📸 Instagram
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <h3>JITU WEB STUDIO</h3>
+    <p>Websites • Apps • Design</p>
+    <p>© 2026 Jitu Web Studio</p>
+</footer>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const service = document.getElementById("service").value;
+    const message = document.getElementById("message").value;
+
+    const text =
+        "Hello Jitu Web Studio!%0A%0A" +
+        "Name: " + encodeURIComponent(name) + "%0A" +
+        "WhatsApp: " + encodeURIComponent(phone) + "%0A" +
+        "Service: " + encodeURIComponent(service) + "%0A" +
+        "Project: " + encodeURIComponent(message);
+
+    window.open(
+        "https://wa.me/918018376029?text=" + text,
+        "_blank"
+    );
+});
+</script>
+
+</body>
+</html>
